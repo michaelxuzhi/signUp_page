@@ -1,0 +1,220 @@
+*{
+	margin:0;
+	padding: 0;
+	font-family: "微软雅黑";
+}
+a{
+	color: rgb(251,116,3);
+	text-decoration: none;
+}
+
+.header{
+	width: 100%;
+	background: #ececec;
+	border-bottom: 2px solid rgb(36,135,201);
+}
+.navbox{
+	width: 1200px;
+	height: 125px;
+	margin: 0 auto;
+	position: relative;
+}
+.logo{
+	width: 100px;
+	height: 125px;
+	background: url(../img/logo.png) no-repeat center;
+}
+
+.logotext{
+	position: absolute;
+	top: 50%;
+	margin-top: -12px;
+	left: 100px;
+}
+.logotext2{
+	color: gray;
+}
+
+.idea{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin-top: -12px;
+}
+
+
+.login{
+	position: absolute;
+	top: 50%;
+	left: 65%;
+	margin-top: -12px;
+}
+.IMOOC{
+	position: absolute;
+	top: 50%;
+	left: 78%;
+	margin-top: -12px;
+}
+
+
+.phone{
+	background: url(../img/phone.png) no-repeat left;
+	background-size:17px 24px ;
+	text-indent: 20px;
+	position: absolute;
+	top: 50%;
+	left: 87%;
+	margin-top: -12px;
+}
+
+.IMOOCtext{
+	border: 1px solid rgb(251,116,3);;
+	width: 110px;
+	padding: 10px;
+	position: absolute;
+	top: 83%;
+	left: 78%;
+	margin-top: -12px;
+	display: none;
+	background: white;
+}
+
+.IMOOCtext a{
+	color: gray;
+	padding: 3px;
+	display: block;
+	border-bottom: 1px solid ;
+}
+
+.userinput{
+	width: 1200px;
+	margin:0 auto;
+}
+
+.home{
+	margin: 10px 0;
+}
+
+.hometext{
+	color: gray;
+}
+
+
+.inputmessage{
+	border:1px solid rgb(251,116,3);
+	border-radius: 5px;
+}
+
+
+.Accountmessage{
+	background: rgb(251,116,3);
+	color: white;
+	height: 40px;
+	font-size: 20px;
+	line-height: 40px;
+	border-radius: 5px;
+}
+
+
+.input{
+	width: 700px;
+	height: 400px;
+	margin: 0 auto;
+	padding: 100px;
+	position: relative;
+}
+
+.input div{
+	margin-bottom: 20px;
+}
+
+
+.rule{
+	border:1px solid rgb(251,116,3);
+	position: absolute;
+	left: 416px;
+	top: 247px;
+	display: none;
+}
+
+.input input{
+	display: inline-block;
+	margin-left: 30px;
+	width: 200px;
+}
+
+#numbertype,#uesrtype{
+	display: inline-block;
+	margin-left: 30px;
+	width: 205px;
+}
+
+.important{
+	color: rgb(251,116,3);
+}
+
+.checkbox{
+	height: 30px;
+	width: 450px;
+	margin: 0 auto;
+}
+.sm_check:hover{
+	cursor: pointer;
+}
+
+.btn{
+	width: 200px;
+	height: 50px;
+	background: rgb(251,116,3);
+	border-radius: 5px;
+	color: white;
+	text-align: center;
+	line-height: 50px;
+	margin: 0 auto;
+	margin-bottom: 20px;
+}
+
+.btn:hover{
+	cursor: pointer;
+	background: rgb(36,135,201);
+}
+
+footer{
+	position: relative;
+	top:100px;
+	background: #ececec;
+	width: 100%;
+	height: 125px;
+	border-top: 2px solid rgb(36,135,201);
+}
+
+.one{
+	position: absolute;
+	width: 200px;
+	top: 30px;
+	left: 50%;
+	margin-left: -100px;
+
+}
+
+.one a{
+	color: gray;
+}
+
+.copy{
+	position: absolute;
+	width: 200px;
+	left: 50%;
+	margin-left: -100px;
+	top: 60px;
+	color: gray;
+}
+
+
+.right{
+	color: rgb(251,116,3);
+}
+
+.Iteam{
+	color: rgb(36,135,201);
+}
